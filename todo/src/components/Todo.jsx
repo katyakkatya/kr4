@@ -25,7 +25,7 @@ const Todo = () => {
     const newTaskInputRef = useRef(null)
 
     const deleteAllTasks = () => {
-        const isConfirmed = confirm('Are you sure you want to delete all?')
+        const isConfirmed = confirm('Вы точно хотите удалить все заметки?')
 
         if (isConfirmed) {
             setTasks([])
